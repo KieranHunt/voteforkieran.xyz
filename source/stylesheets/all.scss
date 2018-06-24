@@ -1,3 +1,9 @@
 @charset "utf-8";
 @import "_normalize";
-@import "_tailwind"
+@import "_tailwind";
+
+@font-face {
+  font-family: 'Cooper Black';
+  src: url('/fonts/cooper-black-webfont.woff') format('woff'),
+   url('/fonts/Cooper Black Regular.ttf') format('truetype');
+} 
