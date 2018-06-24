@@ -1,6 +1,6 @@
-/stylesheets/site-*.css
+/stylesheets/*
   Cache-Control: max-age=31536000
-/javascripts/site-*.js
+/javascripts/*
   Cache-Control: max-age=31536000
 /fonts/*
   Cache-Control: max-age=31536000
