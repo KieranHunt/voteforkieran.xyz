@@ -6,10 +6,16 @@
   font-family: 'Cooper Black';
   src: url('/fonts/cooper-black.woff') format('woff'),
    url('/fonts/cooper-black.ttf') format('truetype');
+}
+
+.text-6xl {
+  font-size: 4rem;
 } 
 
-.text-8xl {
-  font-size: 6rem;
+@media (min-width: 576px) {
+  .sm\:text-8xl {
+    font-size: 6rem;
+  }
 }
 
 .text-pedro {
